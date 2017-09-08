@@ -1,0 +1,72 @@
+html, body, ul, li, h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+h1 img {
+	display: block;
+}
+body {
+	background: 0px 95px url(images/beer.jpg) repeat-x;
+}
+#header {
+	background: 6px 0 url(images/header_bg.gif) repeat-x;
+}
+h1 {
+	height: 95px;
+	color: #fff;
+	font-weight: normal;
+	font: 22px "harrow", "Lucida Grande", arial, sans-serif;
+	line-height: 95px;
+	text-indent: 23px;
+	width: 400px;
+}
+h1 span {
+	font-size: 30px;
+}
+
+#content {
+	background: url(images/header_bg.gif);
+	border: 1px solid #6A0101;
+	width: 426px;
+	margin: 48px 28px 8px 28px;
+}
+#content .i {
+	padding: 15px;
+}
+
+#content h2 {
+	font: 16px "times new roman", serif;
+	font-weight: normal;
+	color: #fff;
+	clear: both;
+}
+.htop {
+	color: #FEFF00;
+}
+.hproject {
+	position: relative;
+	top: 0.5em;
+	left: -0.4em;
+}
+.hof {
+	position: relative;
+	top: -0.5em;
+	left: -1.5em;
+	color: #FEFF00;
+}
+.h2006 {
+	position: relative;
+	top: 0.1em;
+	left: -0.8em;
+	font-size: 22px;
+}
+footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background: url(images/header_bg.gif) repeat-x;
+	height: 63px;
+}
