@@ -4,8 +4,9 @@
 <title>Beer The Voice</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+<script src="script.js"></script>
 </head>
-<body>
+<body onload="getBeersAPI()">
 <div id="wrapper">
   <div id="header">
     <h1><span>B</span>eer The Voice</h1>
@@ -14,15 +15,21 @@
     <div id="content">
       <div class="i">
 		Beer Name:
-		<input type="text" name="beer_name">
+		<input type="text" id="beer_name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<button type="button" onclick="getBeerAPIByName(getElementById('beer_name').value,getElementById('food').value)"> Search </button>
 		<br/>
 		<br/>
 		Food:
-		<input type="text" name="food">
+		<input type="text" id="food">
       </div>
     </div>
   </div>
 </div>
+<br/> <br/> <br/> <br/> <br/> <br/>
+<br/> <br/> <br/> <br/> <br/> <br/>
+<br/> <br/> <br/> <br/> <br/> <br/>
+<br/> <br/> <br/>
+<div id="result"></div>
 </body>
 <footer> </footer>
 </html>

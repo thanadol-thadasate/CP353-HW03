@@ -12,6 +12,9 @@ body {
 #header {
 	background: 6px 0 url(images/header_bg.gif) repeat-x;
 }
+#result {
+	background: url(images/beer2.jpg);
+}
 h1 {
 	height: 95px;
 	color: #fff;
